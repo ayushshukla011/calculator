@@ -16,7 +16,7 @@ Array.from(buttons).forEach((button)=>{button.addEventListener('click',(e)=> {
         result.value=eval(string)  
     }
     
-    else if (buttontext=='C') {string='';
+    else if (buttontext=='RESET') {string='';
     result.value=string;
      }
     
